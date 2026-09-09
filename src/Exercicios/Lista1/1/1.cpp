@@ -20,6 +20,7 @@
  * Histórico:
  *   - Versão inicial: 07/04/2017
  *   - Última atualização: 05/08/2025
+ * 	 - Documentação Doxygen adicionada: 08/09/2026 (Tobias Klein)
  *
  */
 
@@ -66,7 +67,15 @@ const GLchar *fragmentShaderSource = R"glsl(
  }
  )glsl";
 
-// Função MAIN
+
+// MAIN FUNCTION
+
+ /**
+ * @brief Executa a aplicação principal do exercício 1, inicializando a janela,
+ * criando a geometria e renderizando o triângulo em OpenGL.
+ *
+ * @return Código de saída da aplicação.
+ */
 int main()
 {
 	// Inicialização da GLFW
@@ -199,6 +208,16 @@ int main()
 // Função de callback de teclado - só pode ter uma instância (deve ser estática se
 // estiver dentro de uma classe) - É chamada sempre que uma tecla for pressionada
 // ou solta via GLFW
+
+/**
+ * @brief Trata os eventos de teclado da janela.
+ *
+ * @param[in] window Janela GLFW associada ao callback.
+ * @param[in] key Código da tecla pressionada.
+ * @param[in] scancode Código do scancode da tecla.
+ * @param[in] action Ação associada ao evento, como pressionar ou soltar.
+ * @param[in] mode Modificador associado ao evento.
+ */
 void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode)
 {
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
@@ -210,6 +229,12 @@ void key_callback(GLFWwindow *window, int key, int scancode, int action, int mod
 //  O código fonte do vertex e fragment shader está nos arrays vertexShaderSource e
 //  fragmentShader source no iniçio deste arquivo
 //  A função retorna o identificador do programa de shader
+
+/**
+ * @brief Compila e vincula os shaders de vértice e fragmento do programa OpenGL.
+ *
+ * @return Identificador do programa de shader gerado.
+ */
 int setupShader()
 {
 	// Vertex shader
@@ -262,6 +287,12 @@ int setupShader()
 // Apenas atributo coordenada nos vértices
 // 1 VBO com as coordenadas, VAO com apenas 1 ponteiro para atributo
 // A função retorna o identificador do VAO
+
+/**
+ * @brief Cria o VBO e o VAO com a geometria do triângulo do exercício.
+ *
+ * @return Identificador do VAO gerado.
+ */
 int setupGeometry()
 {
 	// Aqui setamos as coordenadas x, y e z do triângulo e as armazenamos de forma
