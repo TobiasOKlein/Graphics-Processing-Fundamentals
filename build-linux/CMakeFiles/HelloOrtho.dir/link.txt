@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/HelloOrtho.dir/link.d CMakeFiles/HelloOrtho.dir/src/Exemplos/HelloOrtho/HelloOrtho.cpp.o CMakeFiles/HelloOrtho.dir/common/glad.c.o -o HelloOrtho  _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a /usr/lib/librt.a -lm -ldl

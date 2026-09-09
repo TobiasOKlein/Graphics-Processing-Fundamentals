@@ -44,6 +44,7 @@ set(EXERCISES
     Exemplos/HelloTriangle
     Exemplos/HelloOrtho
     Exercicios/Lista1/1
+    Exercicios/Lista1/2
     Exercicios/Lista1/3
 
 )

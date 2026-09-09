@@ -1,0 +1,23 @@
+# Hashes of file build rules.
+84126b3ea7771b208ec1b7be22b39257 _deps/glfw-build/CMakeFiles/uninstall
+d58d5ec3c5a07ead9d30ff5a8edcc0b5 _deps/glfw-build/docs/CMakeFiles/docs
+c6566771b187c192270242ccaa7ffbe3 _deps/glfw-build/docs/html/index.html
+f74b6104dcae0db4ea86431569c7b484 _deps/glfw-build/src/CMakeFiles/update_mappings
+cf005173a80dffcaa77f7cf32bf8ece6 _deps/glfw-build/src/fractional-scale-v1-client-protocol-code.h
+ce61f0f336198ec1899711a3207d104c _deps/glfw-build/src/fractional-scale-v1-client-protocol.h
+feefbe4c366cbffec90ac63483dc8694 _deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol-code.h
+79af78776bcfc97b762da872040c88e9 _deps/glfw-build/src/idle-inhibit-unstable-v1-client-protocol.h
+c2e8c55ab73b4e6635791ebcb3d08e0c _deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol-code.h
+137da9fbc9ecf737e88c307de93ba1c5 _deps/glfw-build/src/pointer-constraints-unstable-v1-client-protocol.h
+0d02020579cab8663978020bdef73d2f _deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol-code.h
+86a14afac21a37be489668bfe90321fd _deps/glfw-build/src/relative-pointer-unstable-v1-client-protocol.h
+5106a18040dd37310748a8f535370afe _deps/glfw-build/src/viewporter-client-protocol-code.h
+90f8007ad3c4f8bc42c05c944c1c6203 _deps/glfw-build/src/viewporter-client-protocol.h
+b1cbdf379cb0acafb223eda883f5b53f _deps/glfw-build/src/wayland-client-protocol-code.h
+1719ce45b0793409a96bf0bbe3b62f35 _deps/glfw-build/src/wayland-client-protocol.h
+d7bc7c96b3494ebbd4b7808ad2e05544 _deps/glfw-build/src/xdg-activation-v1-client-protocol-code.h
+56c928083135d46ef39df406256a452e _deps/glfw-build/src/xdg-activation-v1-client-protocol.h
+ccbedb3e58f232920fd7e35729417a47 _deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol-code.h
+e432d646692977efff8a93c769821a43 _deps/glfw-build/src/xdg-decoration-unstable-v1-client-protocol.h
+314d7bbb5f2b29a1051038ab9f82bcce _deps/glfw-build/src/xdg-shell-client-protocol-code.h
+40442245c15b645e476a38ab6281407a _deps/glfw-build/src/xdg-shell-client-protocol.h
